@@ -7,7 +7,7 @@ echo $b
 DATE=2022-03-10
 echo Today Date is $DATE
 DATE= $(date +%F)
-echo Today Date is "$DATE"
+echo Today Date is $DATE
 
 x=10
 y=20
