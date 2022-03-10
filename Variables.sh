@@ -6,7 +6,7 @@ echo $a times
 echo $b
 DATE=2022-03-10
 echo Today Date is $DATE
-DATE=$(date+%F)
+DATE= $(date +%F)
 echo Today Date is "$DATE"
 
 x=10
