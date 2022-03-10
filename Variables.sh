@@ -10,5 +10,6 @@ echo Today Date is "$DATE"
 
 x=10
 y=20
-ADD=$($x+$y)
+# shellcheck disable=SC2004
+ADD=$(($x+$y))
 echo Add="$ADD"
