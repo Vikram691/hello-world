@@ -6,9 +6,9 @@ echo $a times
 echo $b
 
 DATE=$(date+%F)
-echo Today Date is $DATE
+echo Today Date is "$DATE"
 
 x=10
 y=20
 ADD=$($x+$y)
-echo Add=$ADD
+echo Add="$ADD"
