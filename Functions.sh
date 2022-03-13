@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
+
 #function_name{
 #command
 #command
-}
+#}
 
 #function_name
 
@@ -12,7 +13,6 @@ Print_Message(){
   echo Hello,
   echo Good Morning,
   echo welcome to Devops training
-
 }
 
 #Main Program
