@@ -16,4 +16,6 @@ Print_Message(){
 
 #Main Program
 
-#Print_Message
+Print_Message
+
+##Note: Function declare first and call then you call function later
