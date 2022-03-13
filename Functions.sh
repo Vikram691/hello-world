@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #function_name{
 #command
 #command
