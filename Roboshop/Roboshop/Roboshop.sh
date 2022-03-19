@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
-bash comcd
+if [ -e Components/$1.sh ]; then
+  echo "component doesn't exist"
+  fi
 component/$1.sh
