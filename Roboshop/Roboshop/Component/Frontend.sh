@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
+
 echo Frontend component
 
 yum install nginx -y
 
 
-```
 curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
 
  rm -rf/usr/share/nginx/html/*
