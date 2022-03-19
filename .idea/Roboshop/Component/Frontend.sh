@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo Frontend component
 
 yum install nginx -y
