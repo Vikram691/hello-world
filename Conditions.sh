@@ -14,6 +14,7 @@ if [ "$a" != "abc"]; then
   echo Both are not equal
   fi
 
-if [-z "$b" ]; then
+if [ -z "$b" ]; then
+
   echo b variable is empty
   fi
