@@ -10,7 +10,7 @@ if [ "$a" == "abc" ]; then
   echo Both are equal
   fi
 
-if [ "$a" != "abc"]; then
+if [ "$a" != "abc" ]; then
   echo Both are not equal
   fi
 
