@@ -10,8 +10,15 @@ if [ "$USER_ID" -ne 0 ]; then
 
 
 echo Frontend component
-
+echo -e installing niginx
 yum install nginx -y
+# shellcheck disable=SC2181
+if [ $? -eq 0 ]; then
+  echo -e successfully installed
+  else
+    echo -e Failed
+    exit 2
+    fi
 
 
 curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
