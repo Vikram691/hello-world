@@ -19,7 +19,7 @@ if [ $? -eq 0 ]; then
     exit 2
     fi
 
-echo -e "\e[36m cleanup old nginx and extractive new downloaded archive\e[om"
+echo -e "\e[36m cleanup old nginx and extractive new downloaded archive\e[0m"
 
 curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
 
