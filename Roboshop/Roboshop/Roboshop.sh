@@ -4,4 +4,4 @@
  # echo "component doesn't exist"
   #exit
   #fi
-component/$1.sh
+Component/$1.sh
