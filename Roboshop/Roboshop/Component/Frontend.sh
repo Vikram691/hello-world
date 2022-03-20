@@ -4,7 +4,7 @@ USER_ID=$(id -u)
 
 if [ "$USER_ID" -ne 0 ]; then
   echo you should run your sript as sudo or root user
-  exit
+  exit 1
   fi
 
 
