@@ -7,7 +7,7 @@ if [ "$USER_ID" -ne 0 ]; then
   exit 1
   fi
 
-echo Frontend component
+echo Frontend componen
 
 echo -e "\e[32m installing niginx\e[0m"
 yum install nginx -y
